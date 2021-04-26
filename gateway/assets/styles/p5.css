@@ -1,0 +1,32 @@
+html { 
+    background: url('../images/bg1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .header {
+      overflow: hidden;
+      background-color: #680c379b;
+      padding: 20px 10px;
+    }
+    
+  .emp{
+    text-align: center;
+    color: rgb(243, 240, 240);
+    padding-left: 450px;
+    font-size: medium;
+    order: -1;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header .logo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    padding-left: 550px;
+  }
+  
+  /*----------------------------------------------*/
